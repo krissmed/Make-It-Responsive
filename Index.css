@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: azure;
+    position: fixed;
+    width: 100%;
+    z-index: 0;
+}
+.navContent{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(14, 19, 115);
+}
+.navContent:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+#navLogo{
+    margin-left: 25px;
+    height: 100px;
+    width: auto;
+}
+#contact{
+    margin-right: 5%;
+}
