@@ -58,3 +58,22 @@ nav{
     background-color: #660000;
     opacity: 100%;
 }
+#table{
+    margin-right: 15%;
+    margin-left: 15%;
+    position: absolute;
+    margin-top: 150px;
+    width: 70%;
+}
+.staffImage{
+    height: 16%;
+    width: auto;
+}
+.tableText{
+    font-size: 2em;
+    text-align: center;
+
+}
+.tableHeader{
+    width: 250px;
+}
