@@ -5,19 +5,29 @@
     <link rel="stylesheet" href="Index.css">
 </head>
 <body>
-    <div id="toTop" onclick="moveToTop()">Til toppen</div>
+    <div id="toTop" onclick="scrollToTop()">Til toppen</div>
     <nav>
-        <img class="navContent" id="navLogo" alt="logo" src="">
-        <a href="" class="navContent">Hjem</a>
+        <a href="" id="hjem" class="navContent">Hjem</a>
         <a href="" class="navContent">Om oss</a>
         <a href="" class="navContent">Ansatte</a>
         <a href="" class="navContent">Kalender</a>
         <a href="" id="contact" class="navContent">Kontakt oss</a>
     </nav>
-</body>
+    
 <script>
-    function moveToTop(){
-        window.scrollTo(0,0);
+    var nav = document.getElementsByTagName("nav");
+    var toTop = document.getElementById("toTop");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+            toTop.style.display = "block";
+        }else{
+            toTop.style.display = "none";
         }
+    }
+    function scrollToTop(){
+        window.scrollTo(0,0);
+    }
 </script>
+</body>
 </html>
