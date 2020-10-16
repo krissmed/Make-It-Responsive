@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <title>Inova Ansatte</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Staff.css">
+    <link rel="shortcut icon" href="Images/icon-Small.ico" type="image/x-icon"/> <!-- For å legge til ikon for nettsiden-->
+</head>
+<body>
+    <div id="toTop" onclick="scrollToTop()">Til toppen</div> <!-- Til toppen knappen -->
+    <nav>
+        <a href="Index.html" id="hjem" class="navContent">Hjem</a>
+        <a href="" class="navContent">Om oss</a>
+        <a href="" class="navContent">Ansatte</a>
+        <a href="" class="navContent">Kalender</a>
+        <a href="" id="contact" class="navContent">Kontakt oss</a>
+    </nav>
+    <div id="table"> <!-- Skyver innholdet inn på siden-->
+        <h1 style="font-size: 4em;">Våre ansatte</h1>
+        <!--Tabell som inneholder informasjon om alle ansatte. Alle bilder er hentet fra thispersondoesnotexist.com-->
+        <table>
+            <thead>
+                <th></th>
+                <th class="tableHeader"><h1>Navn</h1></th>
+                <th class="tableHeader"><h1>Telefonnummer</h1></th>
+                <th class="tableHeader"><h1>Epost</h1></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img alt="Torgeir Hansen"class="staffImage"src="Images/torgeirHansen.jpg"></td>
+                    <td class="tableText">Torgeir Hansen</td>
+                    <td class="tableText">414 69 154</td>
+                    <td class="tableText">TorgeirHansen@inova.no</td>
+                </tr>
+                <tr style="height: 50px;"></tr> <!-- For å skape mellomrom mellom radene-->
+                <tr>
+                    <td><img alt="Sara Said" class="staffImage"src="Images/saraSaid.jpg"></td>
+                    <td class="tableText">Sara Said</td>
+                    <td class="tableText">425 90 313</td>
+                    <td class="tableText">SaraSaid@inova.no</td>
+                </tr>
+                <tr style="height: 50px;"></tr>
+                <tr>
+                    <td><img alt="Elin Pedersen" class="staffImage"src="Images/elinPedersen.jpg"></td>
+                    <td class="tableText">Elin Pedersen</td>
+                    <td class="tableText">435 88 054</td>
+                    <td class="tableText">ElinPedersen@inova.no</td>
+                </tr>
+                <tr style="height: 50px;"></tr>
+                <tr>
+                    <td><img alt="Sakarias Asen" class="staffImage"src="Images/sakariasAsen.jpg"></td>
+                    <td class="tableText">Sakarias Åsen</td>
+                    <td class="tableText">425 72 273</td>
+                    <td class="tableText">SakariasAsen@inova.no</td>
+                </tr>
+                <tr style="height: 50px;"></tr>
+                <tr>
+                    <td><img alt="Jonathan Steen" class="staffImage"src="Images/jonathanSteen.jpg"></td>
+                    <td class="tableText">Jonathan Steen</td>
+                    <td class="tableText">915 77 978</td>
+                    <td class="tableText">JonathanSteen@inova.no</td>
+                </tr>
+                <tr style="height: 50px;"></tr>
+                <tr>
+                    <td><img alt="Even Brown" class="staffImage"src="Images/evenBrown.jpg"></td>
+                    <td class="tableText">Even Brown</td>
+                    <td class="tableText">955 98 307</td>
+                    <td class="tableText">EvenBrown@inova.no</td>
+                </tr>
+                <tr style="height: 50px;"></tr>
+                <tr>
+                    <td><img alt="Fredrik Svendsen" class="staffImage"src="Images/fredrikSvendsen.jpg"></td>
+                    <td class="tableText">Fredrik Svendsen</td>
+                    <td class="tableText">932 07 918</td>
+                    <td class="tableText">FredrikSvendsen@inova.no</td>
+                </tr>
+                <tr style="height: 50px;"></tr>
+                <tr>
+                    <td><img alt="NikolineHolme" class="staffImage"src="Images/nikolineHolme.jpg"></td>
+                    <td class="tableText">Nikoline Holme</td>
+                    <td class="tableText">417 01 037</td>
+                    <td class="tableText">NikolineHolme@inova.no</td>
+                </tr>
+                <tr style="height: 50px;"></tr>
+                <tr>
+                    <td><img alt="Samuel Stokke" class="staffImage"src="Images/samuelStokke.jpg"></td>
+                    <td class="tableText">Samuel Stokke</td>
+                    <td class="tableText">984 13 058</td>
+                    <td class="tableText">SamuelStokke@inova.no</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<script>
+    var toTop = document.getElementById("toTop");
+    // For å skjule "Til toppen" når man allerede er på toppen
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+            toTop.style.display = "block";
+        }else{
+            toTop.style.display = "none";
+        }
+    }
+    // For at "til toppen" skal skrolle til topppen
+    function scrollToTop(){
+        window.scrollTo(0,0);
+    }
+</script>
+</body>
+</html>
