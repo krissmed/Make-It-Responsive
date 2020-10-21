@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <title>Inova</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="Images/icon-Small.ico" type="image/x-icon"/>
+</head>
+<body>
+    <div id="toTop" onclick="scrollToTop()">Til toppen</div>
+    <nav>
+        <a href="Index.html" id="hjem" class="navContent">Hjem</a>
+        <a href="about.html" class="navContent">Om oss</a>
+        <a href="Staff.html" class="navContent">Ansatte</a>
+        <a href="Calendar.html" class="navContent">Kalender</a>
+        <a href="contact.html" id="contact" class="navContent">Kontakt oss</a>
+    </nav>
+    <div id="middle">
+        <h1 class="headline">Kontaktinfo</h1>
+    </div>  
+<script>
+    var nav = document.getElementsByTagName("nav");
+    var toTop = document.getElementById("toTop");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+            toTop.style.display = "block";
+        }else{
+            toTop.style.display = "none";
+        }
+    }
+    function scrollToTop(){
+        window.scrollTo(0,0);
+    }
+</script>
+</body>
+</html>
