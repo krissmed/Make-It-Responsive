@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <title>Inova</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Index.css">
+    <link rel="shortcut icon" href="Images/icon-Small.ico" type="image/x-icon"/>
+</head>
+<body>
+    <div id="toTop" onclick="scrollToTop()">Til toppen</div>
+    <nav>
+        <a href="Index.html" id="hjem" class="navContent">Hjem</a>
+        <a href="about.html" class="navContent">Om oss</a>
+        <a href="Staff.html" class="navContent">Ansatte</a>
+        <a href="Calendar.html" class="navContent">Kalender</a>
+        <a href="contact.html" id="contact" class="navContent">Kontakt oss</a>
+    </nav>
+    <img class="images" src="Images/UE1.jpg">
+    <img class="images" src="Images/UE2.jpeg">
+    <img class="images" src="Images/UE3.jpg">
+    <div id="middle">
+        <h1 class="headline">Vår kompetanse</h1>
+        <p class="text">Vi har spesialisert oss innen innovasjon i IT-sektoren. Denne sektroen er den sektoren med
+            mest potensiale. 
+        </p>
+        <h1 class="headline">Vår historie</h1>
+        <p class="text">
+            Vi ble etablert i 2006 som en underorganisasjon av innovasjon Norge med spesialisering på IT.
+            Vi har lang erfaring med innovasjon innen IT og har vært med på å hjelpe mange store og små selskaper
+            med å komme i gang og sette ideene ut i livet.
+        </p>
+    </div>
+<script>
+    var nav = document.getElementsByTagName("nav");
+    var toTop = document.getElementById("toTop");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+            toTop.style.display = "block";
+        }else{
+            toTop.style.display = "none";
+        }
+    }
+    function scrollToTop(){
+        window.scrollTo(0,0);
+    }
+</script>
+</body>
+</html>
