@@ -61,7 +61,15 @@ nav{
 }
 
 
-.hei {
+.calendar {
     margin-top: 101px;
     
-}   
+}  
+.form {
+    margin-left: 15px;
+    font-size: 25px;
+    
+}
+#h1{
+    font-size: 4em;
+}
