@@ -58,3 +58,18 @@ nav{
     background-color: #660000;
     opacity: 100%;
 }
+#frontImage{
+    width: 100%;
+    height: auto;
+}
+.headline{
+    font-size: 4em;
+}
+#middle{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.text{
+    font-size: 2em;
+    line-height: 1.5;
+}
