@@ -28,7 +28,20 @@
     <input type="date" id="dato" required><br><br>
     <input type="submit" onclick="hei()" value="submit">
     </form>
-    <script>        
+    <script>
+        var nav = document.getElementsByTagName("nav");
+    var toTop = document.getElementById("toTop");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+            toTop.style.display = "block";
+        }else{
+            toTop.style.display = "none";
+        }
+    }
+    function scrollToTop(){
+        window.scrollTo(0,0);
+    }       
         // function hei() {
         //     var navn = document.getElementById("navn").value;
         //     var epost = document.getElementById("epost").value;
