@@ -11,7 +11,7 @@ nav{
     z-index: 99;
     border-bottom: solid black 1px;
     height: 100px;
-    opacity: 100%;
+    opacity: 75%;
     background-color: white;
 }
 .navContent{
@@ -59,6 +59,7 @@ nav{
     opacity: 100%;
 }
 .headline{
+    margin-top: 101px;
     font-size: 4em;
 }
 #middle{
