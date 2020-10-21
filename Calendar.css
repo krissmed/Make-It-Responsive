@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 nav{
     display: flex;
