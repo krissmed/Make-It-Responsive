@@ -77,3 +77,11 @@ nav{
 .tableHeader{
     width: 250px;
 }
+
+.footer{
+    width: 100%;
+    position: fixed;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}

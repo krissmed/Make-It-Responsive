@@ -73,3 +73,14 @@ nav{
     font-size: 2em;
     line-height: 1.5;
 }
+.footer{
+    width: 100%;
+    position: relative;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    bottom: -1;
+    z-index: -1;
+    height: 30px;
+    font-size: 1em;
+}
