@@ -80,8 +80,16 @@ nav{
 
 .footer{
     width: 100%;
-    position: fixed;
+    position: relative;
     background-color: blue;
     text-align: center;
+    color: white;
+    bottom: 0;
+    z-index: -1;
+    height: 50px;
+    font-size: 1em;
+}
+.footlink {
+    text-decoration: none;
     color: white;
 }

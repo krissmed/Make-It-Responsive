@@ -79,8 +79,12 @@ nav{
     background-color: blue;
     text-align: center;
     color: white;
-    bottom: -1;
+    bottom: 0;
     z-index: -1;
-    height: 30px;
+    height: 50px;
     font-size: 1em;
+}
+.footlink {
+    text-decoration: none;
+    color: white;
 }

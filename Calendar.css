@@ -70,6 +70,21 @@ nav{
     font-size: 25px;
     
 }
-#h1{
+.hei{
     font-size: 4em;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    z-index: -1;
+    height: 50px;
+    font-size: 20px;
+}
+.footlink {
+    text-decoration: none;
+    color: white;
 }
