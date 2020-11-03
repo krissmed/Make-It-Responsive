@@ -56,10 +56,10 @@ nav{
     background-color: blue;
     text-align: center;
     color: white;
-    bottom: 0;
+    bottom: -50px;
     z-index: -1;
-    height: 50px;
-    font-size: 20px;
+    height: 30px;
+    font-size: 20px
 }
 .footlink {
     text-decoration: none;
