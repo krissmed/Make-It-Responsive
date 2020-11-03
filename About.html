@@ -7,7 +7,6 @@
     <link rel="shortcut icon" href="Images/icon-Small.ico" type="image/x-icon"/>
 </head>
 <body>
-    <div id="toTop" onclick="scrollToTop()">Til toppen</div>
     <nav>
         <a href="index.html" id="hjem" class="navContent">Hjem</a>
         <a href="about.html" class="navContent">Om oss</a>
@@ -40,19 +39,6 @@
         <p>Laget av innovasjon Norge</p>
     </div>
 <script>
-    var nav = document.getElementsByTagName("nav");
-    var toTop = document.getElementById("toTop");
-    window.onscroll = function() {scrollFunction()};
-    function scrollFunction() {
-        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-            toTop.style.display = "block";
-        }else{
-            toTop.style.display = "none";
-        }
-    }
-    function scrollToTop(){
-        window.scrollTo(0,0);
-    }
 </script>
 <footer class="footer">Inova © - innovasjonscamper<br> Ved spørsmål: <a href="contact.html" class="footlink">Kontakt oss</a> </footer>
 </body>

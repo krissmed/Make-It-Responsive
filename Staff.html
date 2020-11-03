@@ -7,7 +7,6 @@
     <link rel="shortcut icon" href="Images/icon-Small.ico" type="image/x-icon"/> <!-- For å legge til ikon for nettsiden-->
 </head>
 <body>
-    <div id="toTop" onclick="scrollToTop()">Til toppen</div> <!-- Til toppen knappen -->
     <nav>
         <a href="index.html" id="hjem" class="navContent">Hjem</a>
         <a href="About.html" class="navContent">Om oss</a>
@@ -92,20 +91,6 @@
         </table>
     </div>
 <script>
-    var toTop = document.getElementById("toTop");
-    // For å skjule "Til toppen" når man allerede er på toppen
-    window.onscroll = function() {scrollFunction()};
-    function scrollFunction() {
-        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-            toTop.style.display = "block";
-        }else{
-            toTop.style.display = "none";
-        }
-    }
-    // For at "til toppen" skal skrolle til topppen
-    function scrollToTop(){
-        window.scrollTo(0,0);
-    }
 </script>
 <footer class="footer">Inova © - innovasjonscamper<br> Ved spørsmål: <a href="contact.html" class="footlink">Kontakt oss</a> </footer>
 </body>
