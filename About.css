@@ -68,8 +68,9 @@ img{
     color: white;
     bottom: 0;
     z-index: -1;
-    height: 50px;
+    height: 30px;
     font-size: 1em;
+    
 }
 .footlink {
     text-decoration: none;
