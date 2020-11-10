@@ -2,52 +2,35 @@ body{
     margin: 0px;
     scroll-behavior: smooth;
 }
-@media only screen and (min-width: 500px){
-    .hamMenu{
-        display:none;
-    }
-    nav{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        position: fixed;
-        width: 100%;
-        z-index: 99;
-        border-bottom: solid black 1px;
-        height: 100px;
-        opacity: 100%;
-        background-color: white;
-    }
-    .navContent{
-        margin-bottom: 5px;
-        margin-top: 5px;
-        font-size: 2em;
-        text-decoration: none;
-        user-select: none;
-    }
-    .navContent:hover{
-        text-decoration: underline;
-        transform: scale(1.1);
-        transition: transform 0.1s;
-    }
-    #navLogo{
-        margin-left: 25px;
-        height: 100px;
-        width: auto;
-        display: none;
-    }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    border-bottom: solid black 1px;
+    height: 100px;
+    opacity: 100%;
+    background-color: white;
 }
-@media only screen and (max-width: 500px){
-    #hamburgerMeny{
-        margin-top: 15px;
-        margin-left: 15px;
-    }
-    .hamMenu{
-        width: 35px;
-        height: 5px;
-        background-color: black;
-        margin: 6px 0px;
-    }
+.navContent{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 2em;
+    text-decoration: none;
+    user-select: none;
+}
+.navContent:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: transform 0.1s;
+}
+#navLogo{
+    margin-left: 25px;
+    height: 100px;
+    width: auto;
+    display: none;
 }
 #frontImage{
     width: 100%;

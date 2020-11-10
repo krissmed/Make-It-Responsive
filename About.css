@@ -14,9 +14,6 @@ nav{
     opacity: 100%;
     background-color: white;
 }
-@media (max-width: 500){
-
-}
 .navContent{
     margin-bottom: 5px;
     margin-top: 5px;
@@ -66,7 +63,6 @@ img{
     z-index: -1;
     height: 30px;
     font-size: 1em;
-    
 }
 .footlink {
     text-decoration: none;
