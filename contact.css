@@ -39,9 +39,8 @@ nav{
     margin-left: 5%;
 }
 #frontImage{
-    width: 100%;
+    width: 100vw;
     height: auto;
-    margin-top: 100px;
 }
 .headline{
     font-size: 4em;
