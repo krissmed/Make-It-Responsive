@@ -4,7 +4,7 @@ body{
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -15,9 +15,7 @@ nav{
     background-color: white;
 }
 @media (max-width: 500){
-    .topImage{
-        
-    }
+
 }
 .navContent{
     margin-bottom: 5px;
@@ -37,12 +35,6 @@ nav{
     height: 100px;
     width: auto;
     display: none;
-}
-#contact{
-    margin-right: 5%;
-}
-#hjem{
-    margin-left: 5%;
 }
 .headline{
     font-size: 4em;

@@ -4,7 +4,7 @@ body{
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -31,12 +31,6 @@ nav{
     height: 100px;
     width: auto;
     display: none;
-}
-#contact{
-    margin-right: 5%;
-}
-#hjem{
-    margin-left: 5%;
 }
 #table{
     margin-right: 15%;
