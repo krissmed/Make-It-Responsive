@@ -16,7 +16,7 @@ nav{
 }
 @media (max-width: 500){
     .topImage{
-        margin-top: 100px;
+        
     }
 }
 .navContent{
@@ -43,10 +43,6 @@ nav{
 }
 #hjem{
     margin-left: 5%;
-}
-#frontImage{
-    width: 100%;
-    height: auto;
 }
 .headline{
     font-size: 4em;
