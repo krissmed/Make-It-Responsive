@@ -4,7 +4,7 @@ body{
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -32,32 +32,6 @@ nav{
     width: auto;
     display: none;
 }
-#contact{
-    margin-right: 5%;
-}
-#hjem{
-    margin-left: 5%;
-}
-#toTop{ 
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: red;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-    opacity: 75%;
-    user-select: none;
-    display: none;
-}
-#toTop:hover{
-    background-color: #660000;
-    opacity: 100%;
-}
 #frontImage{
     width: 100%;
     height: auto;
@@ -72,4 +46,19 @@ nav{
 .text{
     font-size: 2em;
     line-height: 1.5;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    z-index: -1;
+    height: 50px;
+    font-size: 1em;
+}
+.footlink {
+    text-decoration: none;
+    color: white;
 }

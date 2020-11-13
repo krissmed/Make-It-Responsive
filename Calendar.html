@@ -1,10 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="nb">
     <head>
-
-    </head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Calendar.css">
+        <title>Kalender</title>
+        <link rel="shortcut icon" href="Images/icon-Small.ico" type="image/x-icon"/> <!-- For å legge til ikon for nettsiden-->    </head>
     <body>
-
-    </body>
+    <nav>
+        <a href="index.html" id="hjem" class="navContent">Hjem</a>
+        <a href="About.html" class="navContent">Om oss</a>
+        <a href="Staff.html" class="navContent">Ansatte</a>
+        <a href="Calendar.html" class="navContent">Kalender</a>
+        <a href="contact.html" id="contact" class="navContent">Kontakt oss</a>
+    </nav>
+    <iframe title="Kalender for påmelding" class="calendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%234285F4&amp;ctz=Europe%2FOslo&amp;src=NHQzam9pMWZtajJiOHVhZjJvOW52YTR2ZjhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23F6BF26&amp;showTz=0&amp;showTabs=0&amp;showPrint=0&amp;showTitle=0&amp;showNav=1&amp;showCalendars=0" style="border:solid 1px #777"width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+    <h1 class="hei">Fyll in informasjon for innmelding<h1>
+    <div class="form">
+        <form>
+            <label for="navn">Navn:</label>
+            <input type="text" id="navn" required><br>
+            <label for="epost">Epost:</label>
+            <input type="email" id="epost" required><br>
+            <label for="tlf">Telefon:</label>
+            <input type="number" id="tlf" required><br>
+            <label for="dato">Dato:</label>
+            <input type="date" id="dato" required><br><br>
+            <input type="submit" id="sumbit" value="submit">
+        </form>
+        <p>Du får bekreftelse på epost</p>
+    </div>
+    <footer class="footer">Inova © - innovasjonscamper</footer>
+</body>
     
-</html>
+</html> 

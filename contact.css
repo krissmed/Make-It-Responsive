@@ -21,7 +21,6 @@ nav{
     text-decoration: none;
     user-select: none;
 }
-
 .navContent:hover{
     text-decoration: underline;
     transform: scale(1.1);
@@ -44,24 +43,15 @@ nav{
     font-size: 2em;
     line-height: 1.5;
 }
-img{
-    width: 33%;
-    height: auto;
-}
-#images{
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 100px;
-}
 .footer{
-    width: 100vw;
+    width: 100%;
     position: relative;
     background-color: blue;
     text-align: center;
     color: white;
     bottom: 0;
     z-index: -1;
-    height: 30px;
+    height: 50px;
     font-size: 1em;
 }
 .footlink {

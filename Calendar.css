@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    border-bottom: solid black 1px;
+    height: 100px;
+    opacity: 100%;
+    background-color: white;
+}
+.navContent{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 2em;
+    text-decoration: none;
+    user-select: none;
+}
+.navContent:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: transform 0.1s;
+}
+#navLogo{
+    margin-left: 25px;
+    height: 100px;
+    width: auto;
+    display: none;
+}
+.calendar {
+    margin-top: 101px;
+    
+}  
+.form {
+    margin-left: 15px;
+    font-size: 25px;
+}
+.hei{
+    font-size: 4em;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    bottom: -50px;
+    z-index: -1;
+    height: 30px;
+    font-size: 20px
+}
+.footlink {
+    text-decoration: none;
+    color: white;
+}
